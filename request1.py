@@ -51,25 +51,4 @@ def userid(user):
 	count = 0
 	print(data)
 
-	user1 = input("Enter your input: ")
-	if user1 == 'up':
-		func()
-	elif user1 == 'n':
-		next = user+1
-		if next < index:
-			userid(next)
-		else:
-			print ("this was the last input")
-			# func()	
-	elif user1 == 'p':
-		next = user-1
-		if next >= 0:
-			userid(user-1)
-		else:
-			print ("index out of range")
-			# func()
-	elif user1 == 'b':
-		print ('thanks for playing')
-	else:
-		print ("your input was wrong! please try again")
 func()
