@@ -50,5 +50,4 @@ def userid(user):
 	data=var3["data"]
 	count = 0
 	print(data)
-
 func()
